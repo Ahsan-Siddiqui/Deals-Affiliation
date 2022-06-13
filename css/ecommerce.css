@@ -1,0 +1,143 @@
+.header-bg
+{
+    background-image: url(../assets/images/header-images/ecommerce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer .footer-top
+{
+    background: transparent;
+}
+ul li a
+{
+    color: #000 !important;
+}
+.site-wrap
+{
+    background-color: #fff;
+}
+.ourcontent
+{
+    padding: 20px 15px 10px 15px;
+}
+.ourcontent .contentparh
+{
+    width: 100%;
+    height: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    background-color: transparent;
+    border-radius: 10px 10px;
+    padding: 24px;
+}
+.carousel-control-next, .carousel-control-prev
+{
+    width: 2%;
+}
+.carousel-indicators
+{
+    position: initial;
+    margin-top: 20px;
+}
+.carousel-indicators li
+{
+    height: 20px;
+    border-radius: 100px;
+}
+.m-5
+{
+    margin: 1rem 3rem 3rem 3rem !important;
+}
+.ourcontent h1
+{
+    font-size: 24px;
+    color: #000;
+}
+.darkcolor
+{
+    color: #13b7e4;
+}
+.about-animate
+{
+    position: absolute;
+}
+.about-animate ul li 
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 1;
+    width: 0; 
+    height: 0; 
+}
+#shape-one
+{
+    border-left: 23px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 17px solid #4dc9eb;
+}
+#shape-two
+{
+    border-left: -1px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 10px solid #189cc1;
+}
+.about-animate li:nth-child(1) {
+    top: 9vh;
+    left: 39vw;
+}
+.about-animate li:nth-child(2) {
+    top: 0vh;
+    left: 58vw;
+}
+.about-animate li:nth-child(1),.about-animate li:nth-child(2)
+{
+    animation: movement 2s infinite  alternate;
+}
+@keyframes movement {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.about-animate li:nth-child(1) {
+    animation: movement 1s infinite  alternate;
+}
+.about-animate li:nth-child(2) {
+    animation: movement 1.5s infinite  alternate;
+}
+/* FOR RESPONSIVE VIEW */
+@media screen and (max-width: 780px)   {
+.m-5
+{
+    margin: 0rem 0rem 0rem 0rem !important;
+}
+.about-animate
+{
+    display: none;
+}
+.content
+{
+    margin-left: 20px;
+}
+.ourcontent
+{
+    padding: 0px;
+}
+/* .ourcontent
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px;
+    padding: 20;
+    margin: 10px 30px;
+    
+} */
+.topcontactbtn
+{
+    display: none;
+}
+.content h1 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+}
+}

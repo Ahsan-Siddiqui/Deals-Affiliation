@@ -1,0 +1,110 @@
+/* START IMAGE GALLERY CSS */
+
+#output_image
+{
+    width: 150px;
+    height: 150px;
+    border: 12px solid double;
+    background-color: aliceblue;
+}
+.gallary
+{
+    width: 1100px;
+    height: auto;
+}
+.gallary img
+{
+    transition: 1s;
+    widows: 200px;
+    width:272px;
+    height: 300px;
+}
+.gallary img:hover
+{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    padding: -40px;
+    
+}
+/* END IMAGE GALLERY CSS */
+
+.header-bg
+{
+    background-image: url(../assets/images/header-images/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  */
+
+ul li a
+{
+    color: #000 !important;
+}
+.site-wrap
+{
+    background-color: #fff;
+}
+.m-5
+{
+    margin: 1rem 3rem 3rem 3rem !important;
+}
+.about-animate
+{
+    position: absolute;
+}
+.about-animate ul li 
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 1;
+    width: 0; 
+    height: 0; 
+}
+#shape-one
+{
+    border-left: 23px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 17px solid #4dc9eb;
+}
+#shape-two
+{
+    border-left: -1px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 10px solid #189cc1;
+}
+.about-animate li:nth-child(1) {
+    top: 10vh;
+    left: 37vw;
+}
+.about-animate li:nth-child(2) {
+    top: 0vh;
+    left: 50vw;
+}
+.about-animate li:nth-child(1),.about-animate li:nth-child(2)
+{
+    animation: movement 2s infinite  alternate;
+}
+@keyframes movement {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.about-animate li:nth-child(1) {
+    animation: movement 1s infinite  alternate;
+}
+.about-animate li:nth-child(2) {
+    animation: movement 1.5s infinite  alternate;
+}
+/* FOR RESPONSIVE VIEW */
+@media screen and (max-width: 780px)   {
+    
+.m-5
+{
+    margin: 0rem 0rem 0rem 0rem !important;
+}
+.about-animate
+{
+    display: none;
+}
+}

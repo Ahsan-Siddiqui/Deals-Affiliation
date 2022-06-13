@@ -1,0 +1,354 @@
+/* Frequently Asked Questions Section
+--------------------------------*/
+.header-bg
+{
+    background-image: url(../assets/images/header-images/digital-marketing.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#faq {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  #faq #faq-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #faq #faq-list li {
+    border-bottom: 1px solid #ebebeb;
+  }
+  
+  #faq #faq-list a {
+    padding: 22px 0;
+    display: block;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+  
+  #faq #faq-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  
+  #faq #faq-list p {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  #faqs {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  #faqs #faqs-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #faqs #faqs-list a {
+    padding: 22px 0;
+    display: block;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+  
+  #faqs #faqs-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  
+  #faqs #faqs-list p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #faq #faq-list a {
+      font-size: 18px;
+    }
+    #faq #faq-list i {
+      top: 13px;
+    }
+  
+  
+    #faqs #faqs-list a {
+      font-size: 18px;
+    }
+    #faqs #faqs-list i {
+      top: 13px;
+    }
+  }
+  
+  #faq #faq-list a.collapse {
+    color: #1bb1dc;
+  }
+  
+  #faq #faq-list a.collapsed {
+    color: #000;
+  }
+  
+  #faq #faq-list a.collapsed i::before {
+    content: "\f2c7" !important;
+  }
+  
+  
+  
+  
+  #faqs #faqs-list a.collapse {
+    color: #1bb1dc;
+  }
+  
+  #faqs #faqs-list a.collapsed {
+    color: #000;
+  }
+  
+  #faqs #faqs-list a.collapsed i::before {
+    content: "\f2c7" !important;
+  }
+/* Clients Section
+--------------------------------*/
+#clients {
+    padding: 60px 0;
+  }
+  
+  #clients img {
+    max-width: 80%;
+    opacity: 0.5;
+    transition: 0.3s;
+    padding: 15px 0;
+  }
+  
+  #clients img:hover {
+    opacity: 1;
+  }
+  
+  #clients .owl-nav, #clients .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #clients .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  #clients .owl-dot.active {
+    background-color: #1bb1dc;
+  }  
+
+.about-marketing h2 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #000;
+}
+.about-marketing p {
+    font-size: 17px;
+    line-height: 28px;
+}
+.about-marketing 
+{
+    padding-top: 30px;
+}
+ul li a {
+    color: #000 !important;
+}
+.site-wrap
+{
+    background-color: #fff;
+}
+.blueButton
+{
+    padding: 10px;
+}
+.blueButton a
+{
+    color: white;
+    background-color: #13b7e4;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.blueButton a:hover{
+    color: white;
+    transform: translateY(-10px); 
+}
+.ourdigitalMarketing li
+{
+    padding: 0px 20px;
+}
+li a .arrow-blue
+{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+.ourdigitalMarketing li.active
+{
+    background-color: #13b7e4;
+}
+.ourdigitalMarketing li:hover
+{
+    background-color: #13b7e4;
+}
+
+.ourdigitalMarketing li a.active
+{
+    background-color: #13b7e4;
+}
+li a:hover .arrow-blue
+{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+.arrow-blue {
+    border: solid #13b7e4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+.ourcontent .contentparh
+{
+    width: 100%;
+    height: auto;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    background-color: transparent;
+    border-radius: 10px 10px;
+    padding: 24px;
+}
+.section-header
+{
+    text-align: center;
+}
+.contentparh ul
+{
+    padding-left: 15px;
+}
+.contentparh ul li
+{
+    
+    font-weight: bold;
+}
+.m-5
+{
+    margin: 1rem 3rem 3rem 3rem !important;
+}
+.ourcontent h1
+{
+    font-size: 24px;
+    color: #000;
+}
+.about-animate
+{
+    position: absolute;
+}
+.about-animate ul li 
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 1;
+    width: 0; 
+    height: 0; 
+}
+#shape-one
+{
+    border-left: 23px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 17px solid #4dc9eb;
+}
+#shape-two
+{
+    border-left: -1px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 10px solid #189cc1;
+}
+.about-animate li:nth-child(1) {
+    top: 10vh;
+    left: 27vw;
+}
+.about-animate li:nth-child(2) {
+    top: 0vh;
+    left: 48vw;
+}
+.about-animate li:nth-child(1),.about-animate li:nth-child(2)
+{
+    animation: movement 2s infinite  alternate;
+}
+@keyframes movement {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.about-animate li:nth-child(1) {
+    animation: movement 1s infinite  alternate;
+}
+.about-animate li:nth-child(2) {
+    animation: movement 1.5s infinite  alternate;
+}
+.right-border
+{
+    border-right: 2px solid #1ebbe6;
+}
+/* FOR RESPONSIVE VIEW */
+@media screen and (max-width: 780px)   {
+.m-5
+{
+    margin: 0rem 0rem 0rem 0rem !important;
+}
+.about-animate
+{
+    display: none;
+}
+.content
+{
+    margin-left: 20px;
+}
+.ourcontent
+{
+    padding: 0px;
+}
+.ourcontent .contentparh
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px;
+    padding: 20;
+    margin: 10px 30px;
+    
+}
+.content h1 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+}
+}

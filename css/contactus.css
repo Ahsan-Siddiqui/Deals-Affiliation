@@ -1,0 +1,137 @@
+ul li a
+{
+    color: #000 !important;
+}
+.header-bg
+{
+    background-image: url(../assets/images/header-images/Contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-wrap
+{
+    background-color: #fff;
+}
+.form-container
+{
+    background-color: #f7f6ff;
+    padding: 60px;
+}
+.contact-gif img
+{
+   margin-top: 60px;
+   filter: hue-rotate(12deg);
+}
+
+.contact-form {
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 20px;
+    box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+    border-radius: 8px 8px 8px 40px;
+    background: rgb(255, 255, 255);
+    border-bottom: 4px solid #055397;
+    color: #000;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]
+{
+    color: white;
+    background-color: #13b7e4;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 0px;
+    transition: .2s;
+}
+input[type=submit]:hover{
+    color: white;
+    transform: translateY(-10px); 
+}
+
+.m-5
+{
+    margin: 1rem 3rem 3rem 3rem !important;
+}
+.about-animate
+{
+    position: absolute;
+}
+.about-animate ul li 
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 1;
+    width: 0; 
+    height: 0; 
+}
+#shape-one
+{
+    border-left: 23px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 17px solid #4dc9eb;
+}
+#shape-two
+{
+    border-left: -1px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 10px solid #189cc1;
+}
+.about-animate li:nth-child(1) {
+    top: 9vh;
+    left: 33vw;
+}
+.about-animate li:nth-child(2) {
+    top: 0vh;
+    left: 46vw;
+}
+.about-animate li:nth-child(1),.about-animate li:nth-child(2)
+{
+    animation: movement 2s infinite  alternate;
+}
+@keyframes movement {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.about-animate li:nth-child(1) {
+    animation: movement 1s infinite  alternate;
+}
+.about-animate li:nth-child(2) {
+    animation: movement 1.5s infinite  alternate;
+}
+/* FOR RESPONSIVE VIEW */
+@media screen and (max-width: 780px)   {
+
+.m-5
+{
+    margin: 0rem 0rem 0rem 0rem !important;
+}
+.form-container
+{
+    background-color: #f7f6ff;
+    padding: 0px;
+    margin: 10px;
+}
+.contact-gif
+{
+    display: none;
+}
+.about-animate
+{
+    display: none;
+}
+}
